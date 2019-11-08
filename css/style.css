@@ -3,7 +3,7 @@ body{
 	margin:0;
 	font-family: 'Roboto', sans-serif; 
 	background:#071f4400;
-} 
+}  
 body a,input[type="submit"],.wthree_services_left1,.w3agile_banner_btom_login_left3 a,.agile_gallery_grid_w3 img,.agile_gallery_grid_left img{
 	transition:.5s ease-in;
 	-webkit-transition:.5s ease-in;
@@ -3471,6 +3471,16 @@ h2.typoh2{
 	}
 }
 @media(max-width:320px){
+	.css{
+		width:100%; 
+		margin: 14px -13px -14px;
+	}
+	.row img{
+		float: right;
+    margin-right: 0px;
+    margin-top: 50px;
+	}
+
 	.agileits-banner-info h3 {
 		font-size: 1.3em;
 		letter-spacing: 2px;
@@ -3566,11 +3576,6 @@ h2.typoh2{
 	padding-top:50px;
 }
 
-.row img{
-	float: right;
-	margin-right: 102px;
-	margin-top: 6px;
-}
 
 .btn {
 	background-color: #85cb0b;
