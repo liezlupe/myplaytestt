@@ -2506,6 +2506,15 @@ h2.typoh2{
 
 /*--start-responsive-design--*/
 @media(max-width:991px){
+	.css{
+		width:100%; 
+		margin: 14px -13px -14px;
+	}
+	.row img{
+		float: right;
+		margin-right: 0px;
+		margin-top: 50px;
+	}
 	.bnr-btm-info {
 		padding-left: 10px;
 	}
@@ -3477,8 +3486,8 @@ h2.typoh2{
 	}
 	.row img{
 		float: right;
-    margin-right: 0px;
-    margin-top: 50px;
+		margin-right: 0px;
+		margin-top: 50px;
 	}
 
 	.agileits-banner-info h3 {
@@ -3565,7 +3574,7 @@ h2.typoh2{
 .column {
 	flex: 1;
 	border: 1px solid rgba(255, 254, 254, 0);
-	margin: 2px;
+	
 	
 }
 .column-btn{
